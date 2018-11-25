@@ -1,6 +1,6 @@
 ![homecoming_proto](https://user-images.githubusercontent.com/32383404/48976490-17e9e800-f0cc-11e8-8b5e-9f447f116896.jpg)
 ---
-#ABOUT 'HOMECOMING'
+ABOUT 'HOMECOMING'
 ---
 HOMECOMING은 6족 보행 인공지능 로봇입니다.
 
@@ -22,7 +22,8 @@ Inception V3를 사용하여 트레이닝 하였고,  11개의 feature를 분류
 
 
 ---
-#SYSTEM FLOW
+SYSTEM FLOW
+---
 ![dataflow](https://user-images.githubusercontent.com/32383404/48976514-8333ba00-f0cc-11e8-914d-34705fa81ca6.JPG)
 
 인식모델은 Google 社의 Inception V3를 Fine-tuning하여 사용하였고, 총 11개의 feature를 인식할 수 있도록 트레이닝 하였습니다. 데스크탑을 사용하여 트레이닝 하였고, 라즈베리파이 5대 모두에 tensorflow 1.0을 설치하여 트레이닝 완료된 모델을 올려 사용하였습니다.
